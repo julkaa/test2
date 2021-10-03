@@ -84,6 +84,7 @@ nav ul {
   height: 32px;
   color: white;
   background: #034971;
+  border: solid 1px #034971;
   border-radius: 64px;
   float: right;
 }
@@ -95,4 +96,13 @@ nav ul {
     background-color: #034971;
     margin-bottom: 30px;
   }
+
+#search-input {
+  //width: 82px;
+  height: 20px;
 }
+.search-icon{
+  float: right;
+}
+}
+
