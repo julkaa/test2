@@ -5,6 +5,9 @@
 li{
   list-style: none;
   margin-bottom: 15px;
+  //font-weight: 900;
+  font-size: 12px;
+  line-height: 20px;
 }
 .header{
   //width: 100%;
@@ -41,8 +44,9 @@ li{
   padding: 15px 52px 0px 52px;
   background-color: white;
   height: 680px;
+  background-color: #fbfbfd;
 .patient-info{
-  width: 341px;
+  //width: 341px;
   height: 621px;
   position: relative;
   left: -120px;
@@ -67,6 +71,7 @@ li{
   font-size: 12px;
   line-height: 20px;
   color: #000000;
+  top: -12px;
 }
 .normal-phrase{
   font-family: 'Lato',serif;
@@ -76,7 +81,7 @@ li{
   line-height: 20px;
   color: #323232;
   position: relative;
-  //left: 225px;
+  //top: 15px;
 }
 .red-phrase{
   font-family: 'Lato', serif;
@@ -86,3 +91,28 @@ li{
   line-height: 20px;
   color: #EA1B1B;
 }
+.div-info-left{
+  width: 192px;
+  height: 100%;
+  position: relative;
+  float: left;
+  top: 15px;
+}
+.div-info-right{
+  width: 170px;
+  height: 100%;
+  position: relative;
+  float: left;
+  //top: 5px;
+}
+.vrt-line{
+  width: 635px;
+  height: 0px;
+  opacity: 0.2;
+  border: 1px solid #034971;
+  transform: rotate(-90deg);
+  position: relative;
+  left: 249px;
+  top: 275px
+}
+
