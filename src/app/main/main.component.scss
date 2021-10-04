@@ -116,3 +116,27 @@ li{
   top: 275px
 }
 
+
+
+.ref-history{
+  width: 468px;
+  height: 560px;
+  position: relative;
+  float: right;
+  right: 125px;
+  top: -59px
+}
+.top-div{
+  padding-left: 10px;
+  &:first-child{
+    width: 211px;
+    height: 30px;
+
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #034971;
+  }
+}
